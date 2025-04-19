@@ -9,7 +9,7 @@ Em C, o operador ```&``` retorna um endereço de memória:
 ```c
 scanf("%d",&num);
 //         ^
-//   Operador ******* 
+//   Operador unário 
 
 
 ```
@@ -32,6 +32,6 @@ cont = *pont;//  <--- Variável recebendo o valor "desreferenciado", ou seja, o 
 
 ## Matrizes e ponteiros
 
-Na linguagem C, matrizes e ponteiros são relacionados. O nome de uma matriz aponta para o primeiro endereço dessa matriz.
+Na linguagem C, matrizes e ponteiros estão intimamente relacionados. Aqui, matrizes e vetores são considerados ponteiros. Isso significa que os nomes das matrizes são ponteiros que apontam para a posição de memória do primeiro elemento desta matriz. 
 
 #PI 

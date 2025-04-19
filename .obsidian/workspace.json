@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
+                "file": "docs/Programação Imperativa/09 - Funções e Escopos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "13 - Apêndice - Algoritmos de ordenação"
+              "title": "09 - Funções e Escopos"
             }
           }
         ]
@@ -181,11 +181,19 @@
   },
   "active": "5718fc2cab21b64a",
   "lastOpenFiles": [
+    "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
+    "site/Programação Orientada a Objetos/Menu/index.html",
+    "site/Programação Orientada a Objetos/Menu",
+    "site/Programação Orientada a Objetos",
+    "site/index.html",
+    "site/sitemap.xml.gz",
+    "site/sitemap.xml",
+    "site/404.html",
+    "docs/Programação Imperativa/09 - Funções e Escopos.md",
+    "docs/Programação Imperativa/10 - Recursividade.md",
     "docs/Programação Imperativa/12 - Entrada e Saída de Arquivos.md",
     "docs/Programação Imperativa/11 - Alocamento de memória.md",
-    "docs/Programação Imperativa/10 - Ponteiros.md",
-    "docs/Programação Imperativa/09 - Recursividade.md",
-    "docs/Programação Imperativa/08 - Funções e Escopos.md",
+    "docs/Programação Imperativa/08 - Ponteiros.md",
     "docs/Programação Imperativa/07 - Estruturas Heterogêneas de Dados (Structs).md",
     "docs/Programação Imperativa/06 - Matrizes nDimensionais.md",
     "docs/Programação Imperativa/05 - Vetores(Arrays).md",
@@ -196,20 +204,12 @@
     "docs/Programação Funcional/01 - Conceitos Básicos.md",
     "docs/Programação Funcional/03 - Recursividade.md",
     "docs/index.md",
-    "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
     "docs/Programação Funcional/02 - Listas e Registros.md",
     "docs/Programação Funcional/Menu.md",
     "docs/Estruturas de Dados",
-    "site/Programação Orientada a Objetos/Menu/index.html",
-    "site/Programação Orientada a Objetos/Menu",
-    "site/Programação Orientada a Objetos",
     "docs/Programação Imperativa/07 - Funções e Escopos.md",
     "site/search/search_index.json",
     "site/Programação Imperativa/Vetores(Arrays)/index.html",
-    "site/Programação Imperativa/Vetores(Arrays)",
-    "site/Programação Imperativa/Strings/index.html",
-    "site/Programação Imperativa/Strings",
-    "site/Programação Imperativa/Recursividade/index.html",
     "site/Programação Imperativa/assets/Charles_Babbage.jpg",
     "site/Programação Imperativa/assets/AreasMemoria.png",
     "site/Programação Funcional/assets/galshir-babushka.gif",
