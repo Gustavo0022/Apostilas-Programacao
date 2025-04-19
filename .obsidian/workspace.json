@@ -179,8 +179,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5718fc2cab21b64a",
+  "active": "8297f09f2539abd3",
   "lastOpenFiles": [
+    "site/Programação Orientada a Objetos/Menu/index.html",
+    "site/Programação Orientada a Objetos/Menu",
+    "site/Programação Orientada a Objetos",
     "docs/Programação Funcional/03 - Recursividade.md",
     "docs/Programação Funcional/02 - Listas e Registros.md",
     "docs/Programação Funcional/01 - Conceitos Básicos.md",
@@ -199,9 +202,6 @@
     "docs/Programação Imperativa/02 - Operadores relacionais e condicionais.md",
     "docs/Programação Imperativa/01 - Conceitos iniciais.md",
     "site/search/search_index.json",
-    "site/Programação Orientada a Objetos/Menu/index.html",
-    "site/Programação Orientada a Objetos/Menu",
-    "site/Programação Orientada a Objetos",
     "site/Programação Imperativa/Vetores(Arrays)/index.html",
     "site/Programação Imperativa/Vetores(Arrays)",
     "site/Programação Imperativa/Strings/index.html",
@@ -219,7 +219,6 @@
     "docs/Programação Imperativa/Vetores(Arrays).md",
     "docs/Programação Imperativa/Strings.md",
     "docs/Programação Imperativa/Recursividade.md",
-    "docs/Programação Imperativa/Ponteiros.md",
-    "docs/Programação Imperativa/Operadores relacionais e condicionais.md"
+    "docs/Programação Imperativa/Ponteiros.md"
   ]
 }
