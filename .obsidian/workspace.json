@@ -150,13 +150,23 @@
               "icon": "lucide-list",
               "title": "Índice de Menu"
             }
+          },
+          {
+            "id": "8297f09f2539abd3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -165,30 +175,51 @@
       "canvas:Create new canvas": false,
       "daily-notes:Abrir nota de hoje": false,
       "templates:Inserir templates": false,
-      "command-palette:Abrir paleta de comando": false
+      "command-palette:Abrir paleta de comando": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "5718fc2cab21b64a",
   "lastOpenFiles": [
+    "docs/Programação Funcional/03 - Recursividade.md",
+    "docs/Programação Funcional/02 - Listas e Registros.md",
+    "docs/Programação Funcional/01 - Conceitos Básicos.md",
+    "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
+    "docs/Programação Imperativa/12 - Entrada e Saída de Arquivos.md",
+    "docs/Programação Imperativa/11 - Alocamento de memória.md",
+    "docs/Programação Imperativa/10 - Ponteiros.md",
+    "docs/Programação Imperativa/09 - Recursividade.md",
+    "docs/Programação Imperativa/08 - Funções e Escopos.md",
+    "docs/Programação Imperativa/07 - Funções e Escopos.md",
+    "docs/Programação Imperativa/07 - Estruturas Heterogêneas de Dados (Structs).md",
+    "docs/Programação Imperativa/06 - Matrizes nDimensionais.md",
+    "docs/Programação Imperativa/05 - Vetores(Arrays).md",
+    "docs/Programação Imperativa/04 - Estruturas de Repetição.md",
+    "docs/Programação Imperativa/03 - Strings.md",
+    "docs/Programação Imperativa/02 - Operadores relacionais e condicionais.md",
+    "docs/Programação Imperativa/01 - Conceitos iniciais.md",
+    "site/search/search_index.json",
+    "site/Programação Orientada a Objetos/Menu/index.html",
+    "site/Programação Orientada a Objetos/Menu",
+    "site/Programação Orientada a Objetos",
+    "site/Programação Imperativa/Vetores(Arrays)/index.html",
+    "site/Programação Imperativa/Vetores(Arrays)",
+    "site/Programação Imperativa/Strings/index.html",
+    "site/Programação Imperativa/Strings",
+    "site/Programação Imperativa/Recursividade/index.html",
+    "site/Programação Imperativa/Recursividade",
+    "site/Programação Imperativa/assets/Charles_Babbage.jpg",
+    "site/Programação Imperativa/assets/AreasMemoria.png",
+    "site/Programação Funcional/assets/galshir-babushka.gif",
+    "site/img/grid.png",
     "docs/index.md",
     "docs/Programação Imperativa/Menu.md",
     "docs/Programação Funcional/Menu.md",
     "Programação Funcional/Menu.md",
-    "Programação Funcional",
     "docs/Programação Imperativa/Vetores(Arrays).md",
     "docs/Programação Imperativa/Strings.md",
     "docs/Programação Imperativa/Recursividade.md",
     "docs/Programação Imperativa/Ponteiros.md",
-    "docs/Programação Imperativa/Operadores relacionais e condicionais.md",
-    "docs/Programação Imperativa/Matrizes nDimensionais.md",
-    "docs/Programação Imperativa/Funções e Escopos.md",
-    "docs/Programação Imperativa/Estruturas Heterogêneas de Dados (Structs).md",
-    "docs/Programação Imperativa/Estruturas de Repetição.md",
-    "docs/Programação Imperativa/Entrada e Saída de Arquivos.md",
-    "docs/Programação Imperativa/Conceitos iniciais.md",
-    "docs/Programação Imperativa/Apêndice - Algoritmos de ordenação.md",
-    "docs/Programação Imperativa/Alocamento de memória.md",
-    "docs/Programação Funcional/Conceitos Básicos.md",
-    "docs/Programação Funcional/Listas e Registros.md"
+    "docs/Programação Imperativa/Operadores relacionais e condicionais.md"
   ]
 }
