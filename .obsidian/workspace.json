@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Programação Funcional/Menu.md",
+                "file": "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Menu"
+              "title": "13 - Apêndice - Algoritmos de ordenação"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Programação Funcional/Menu.md",
+                "file": "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks para Menu"
+              "title": "Backlinks para 13 - Apêndice - Algoritmos de ordenação"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Programação Funcional/Menu.md",
+                "file": "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links externos de Menu"
+              "title": "Links externos de 13 - Apêndice - Algoritmos de ordenação"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Programação Funcional/Menu.md",
+                "file": "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Índice de Menu"
+              "title": "Índice de 13 - Apêndice - Algoritmos de ordenação"
             }
           },
           {
@@ -179,21 +179,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8297f09f2539abd3",
+  "active": "5718fc2cab21b64a",
   "lastOpenFiles": [
-    "site/Programação Orientada a Objetos/Menu/index.html",
-    "site/Programação Orientada a Objetos/Menu",
-    "site/Programação Orientada a Objetos",
-    "docs/Programação Funcional/03 - Recursividade.md",
-    "docs/Programação Funcional/02 - Listas e Registros.md",
-    "docs/Programação Funcional/01 - Conceitos Básicos.md",
-    "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
     "docs/Programação Imperativa/12 - Entrada e Saída de Arquivos.md",
     "docs/Programação Imperativa/11 - Alocamento de memória.md",
     "docs/Programação Imperativa/10 - Ponteiros.md",
     "docs/Programação Imperativa/09 - Recursividade.md",
     "docs/Programação Imperativa/08 - Funções e Escopos.md",
-    "docs/Programação Imperativa/07 - Funções e Escopos.md",
     "docs/Programação Imperativa/07 - Estruturas Heterogêneas de Dados (Structs).md",
     "docs/Programação Imperativa/06 - Matrizes nDimensionais.md",
     "docs/Programação Imperativa/05 - Vetores(Arrays).md",
@@ -201,20 +193,28 @@
     "docs/Programação Imperativa/03 - Strings.md",
     "docs/Programação Imperativa/02 - Operadores relacionais e condicionais.md",
     "docs/Programação Imperativa/01 - Conceitos iniciais.md",
+    "docs/Programação Funcional/01 - Conceitos Básicos.md",
+    "docs/Programação Funcional/03 - Recursividade.md",
+    "docs/index.md",
+    "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
+    "docs/Programação Funcional/02 - Listas e Registros.md",
+    "docs/Programação Funcional/Menu.md",
+    "docs/Estruturas de Dados",
+    "site/Programação Orientada a Objetos/Menu/index.html",
+    "site/Programação Orientada a Objetos/Menu",
+    "site/Programação Orientada a Objetos",
+    "docs/Programação Imperativa/07 - Funções e Escopos.md",
     "site/search/search_index.json",
     "site/Programação Imperativa/Vetores(Arrays)/index.html",
     "site/Programação Imperativa/Vetores(Arrays)",
     "site/Programação Imperativa/Strings/index.html",
     "site/Programação Imperativa/Strings",
     "site/Programação Imperativa/Recursividade/index.html",
-    "site/Programação Imperativa/Recursividade",
     "site/Programação Imperativa/assets/Charles_Babbage.jpg",
     "site/Programação Imperativa/assets/AreasMemoria.png",
     "site/Programação Funcional/assets/galshir-babushka.gif",
     "site/img/grid.png",
-    "docs/index.md",
     "docs/Programação Imperativa/Menu.md",
-    "docs/Programação Funcional/Menu.md",
     "Programação Funcional/Menu.md",
     "docs/Programação Imperativa/Vetores(Arrays).md",
     "docs/Programação Imperativa/Strings.md",

@@ -1,7 +1,7 @@
 
-# 02 - Operadores relacionais e condicionais
+# Operadores relacionais e condicionais
 
-[<- Voltar](./Menu.md)
+
 ## Operadores relacionais
 
 A linguagem C possui operadores chamados, operadores relacionais, que servem para comparar dados (variáveis, inteiros, strings, etc.).

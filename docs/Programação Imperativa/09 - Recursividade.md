@@ -1,6 +1,5 @@
-# 09 - Recursividade
+# Recursividade
 
-[<- Voltar](./Menu.md)
 ## Definições
 
 

@@ -1,5 +1,4 @@
-# 07 - Estruturas Heterogêneas de Dados (Structs)
+# Estruturas Heterogêneas de Dados (Structs)
 
-[<- Voltar](./Menu.md)
 
 #PI

@@ -1,6 +1,4 @@
-# 03 - Strings
-
-[<- Voltar](./Menu.md)
+# Strings
 
 ## O que são strings?
 

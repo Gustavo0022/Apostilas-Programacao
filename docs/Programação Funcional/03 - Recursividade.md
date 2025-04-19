@@ -1,6 +1,4 @@
 # Recursividade
-#PF
-
 
 
 <img src="/docs/Programação Funcional/assets/galshir-babushka.gif" height="400">
@@ -135,3 +133,4 @@ const meuMap = ([x,...xs], f) => {
 }
 ```
 
+#PF

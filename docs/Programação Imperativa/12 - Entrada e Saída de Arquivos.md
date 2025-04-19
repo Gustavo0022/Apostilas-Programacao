@@ -1,6 +1,6 @@
  
-# 12 - Entrada e Saída de Arquivos
+# Entrada e Saída de Arquivos
 
-[<- Voltar](./Menu.md)
+
 
 #PI

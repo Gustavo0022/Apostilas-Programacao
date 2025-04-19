@@ -1,6 +1,4 @@
-# 10 - Ponteiros
-
-[<- Voltar](./Menu.md)
+# Ponteiros
 
 Ponteiros são tipos de dados que armazenam endereços de memória.
 

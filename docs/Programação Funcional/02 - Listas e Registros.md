@@ -1,7 +1,4 @@
 # Listas e Registros
-#PF 
-
-[<- Voltar](./Menu.md)
 
 É possível fazer coleções de dados em linguagens de programação como o JavaScript. As coleções que utilizaremos aqui são as listas (arrays) e registros. Também serão vistas operações as quais é possível realizar com essas coleções de dados.
 
@@ -297,3 +294,5 @@ O código retorna
 { nome: 'Doki', 'raça': 'Poodle', idade: 6, cor: 'Amarelo', peso: 8.1 }
 { nome: 'Luma', 'raça': 'Poodle', idade: 6, cor: 'preto', peso: 7.2 }
 ```
+
+#PF 

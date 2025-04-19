@@ -1,7 +1,4 @@
-# 06 - Matrizes com mais de uma dimensão
-
-
-[<- Voltar](./Menu.md)
+# Matrizes com mais de uma dimensão
 
 Matrizes em C podem ser declaradas com qualquer quantidade de dimensões
 

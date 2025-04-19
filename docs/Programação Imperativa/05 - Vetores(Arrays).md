@@ -1,7 +1,6 @@
  
-# 05 - Vetores(Arrays)
+# Vetores(Arrays)
 
-[<- Voltar](./Menu.md)
 # Vetores e Matrizes
 
 Vetores e Matrizes são conjuntos de dados homogêneos (de um mesmo tipo). Esses dados 
