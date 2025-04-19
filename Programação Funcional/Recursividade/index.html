@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Recursividade - Arquivos da UFS</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Arquivos da UFS</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">ArquivosUFS</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Programação Funcional</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../Conceitos%20B%C3%A1sicos/" class="dropdown-item">Conceitos Básicos</a>
+</li>
+                                    
+<li>
+    <a href="../Listas%20e%20Registros/" class="dropdown-item">Listas e Registros</a>
+</li>
+                                    
+<li>
+    <a href="../Menu/" class="dropdown-item">PF</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Recursividade</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Programação Imperativa</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Alocamento%20de%20mem%C3%B3ria/" class="dropdown-item">11 - Alocamento de memória</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Ap%C3%AAndice%20-%20Algoritmos%20de%20ordena%C3%A7%C3%A3o/" class="dropdown-item">13 - Apêndice - Algoritmos de ordenação</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Conceitos%20iniciais/" class="dropdown-item">01 - Conceitos iniciais</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Entrada%20e%20Sa%C3%ADda%20de%20Arquivos/" class="dropdown-item">12 - Entrada e Saída de Arquivos</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Estruturas%20Heterog%C3%AAneas%20de%20Dados%20%28Structs%29/" class="dropdown-item">07 - Estruturas Heterogêneas de Dados (Structs)</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Estruturas%20de%20Repeti%C3%A7%C3%A3o/" class="dropdown-item">04 - Estrutura de Repetição</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Fun%C3%A7%C3%B5es%20e%20Escopos/" class="dropdown-item">08 - Funções e Escopos</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Matrizes%20nDimensionais/" class="dropdown-item">06 - Matrizes com mais de uma dimensão</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Menu/" class="dropdown-item">Menu</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Operadores%20relacionais%20e%20condicionais/" class="dropdown-item">02 - Operadores relacionais e condicionais</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Ponteiros/" class="dropdown-item">10 - Ponteiros</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Recursividade/" class="dropdown-item">09 - Recursividade</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Strings/" class="dropdown-item">03 - Strings</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Vetores%28Arrays%29/" class="dropdown-item">05 - Vetores(Arrays)</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Programação Orientada a Objetos</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos/Menu/" class="dropdown-item">Menu</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../Menu/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../../Programa%C3%A7%C3%A3o%20Imperativa/Alocamento%20de%20mem%C3%B3ria/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#recursividade" class="nav-link">Recursividade</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#pf" class="nav-link">PF</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#conceito" class="nav-link">Conceito</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#recursividade-em-lista" class="nav-link">Recursividade em lista</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="recursividade">Recursividade</h1>
+<h1 id="pf">PF</h1>
+<p><img src="/docs/Programação Funcional/assets/galshir-babushka.gif" height="400"></p>
+<h2 id="conceito">Conceito</h2>
+<p>Recursividade é o ato de resolver um problema por meio da repetição de uma mesma função, chamada de <strong>passo indutivo</strong>, invocada por ela mesma, até que se chegue ao chamado <strong>caso base</strong></p>
+<p>O <strong>CASO BASE</strong> é o valor inicial de uma sequência recursiva. Ele é responsável por definir o fim da cadeia recursiva.</p>
+<p>Já o <strong>PASSO INDUTIVO</strong> é o passo necessário para transitar até o caso base, assim obtendo o resultado esperado.</p>
+<p>Ex.: Definindo uma sequência aritmética $ {3,5,7,9,11,13...}$, podemos obter qualquer valor dela por meio da função recursiva a seguir</p>
+<p>$f(0) = 3 $<br />
+$ f(n-1) + 2$  </p>
+<p>A primeira linha é o Caso Base (que indica que $3$ é o elemento inicial da sequência e que, se o "contador" chegar a 0, o valor será $3$ ) e a segunda é o passo indutivo (que indica que, enquanto $f(n)$ for diferente de zero, subtri-se o n em 1 e soma-se 2 ao resultado de $f(n-1)$ ). Assim, para chegar ao quarto elemento da sequência, seriam feitos a seguintes iterações:</p>
+<p>"Ida" até o caso base</p>
+<p>$f(3)$ =<br />
+=$f(2) + 2$<br />
+=$f(1) + 2$<br />
+=$f(0)$ → 3</p>
+<p>"Volta" solucionando os passos indutivos recursivamente</p>
+<p>$f(1) + 2$ → $3 + 2 $ = 5<br />
+$f(2) + 2$ → $5 + 2$ = 7<br />
+$f(3) + 2$ → $7 + 2$ = 9</p>
+<p>Logo, o quarto elemento da lista é $9$</p>
+<p>Outro exemplo de função recursiva é a famosa <strong>Sequência de Fibbonacci</strong>, que pode ser representada da seguinte forma:</p>
+<p>$f(0) = 1$       (caso base 1)<br />
+$f(1) = 1$        (caso base 2)<br />
+$f(n-1) + f(n-2)$ (passo indutivo)</p>
+<p>Traduzindo em palavras, os casos base são os primeiros números da sequência $(1,1)$ e todos os outros derivam desses, nesse caso, o elemento $f(3)$ é definido por $f(2) + f(1)$, ou melhor, $3 = 2+1$</p>
+<p>Na programação, utilizando JavaScript essa função pode ser representada por:</p>
+<pre><code class="language-js">const fib = (n) =&gt; {
+    if (n == 0) return 1
+    else if (n == 1) return 1
+    else return fib(n - 1) + fib(n-2)
+}
+</code></pre>
+<p>Note que a função é chamada dentro dela mesma, e isso é um dos aspectos que caracteriza uma função recursiva. Note também que, caso não existissem casos base, a função nunca terminaria de ser executada, resultando em uma "stack overflow" ou sobrecarga de pilha.</p>
+<p>Outro exemplo é uma função de potência</p>
+<pre><code class="language-js">const potencia = (b,e) =&gt; {
+    if (e == 0) {return 1} 
+    else return b*potencia(b,e-1)
+}
+</code></pre>
+<p>Aqui, o caso base é o caso de o expoente ser $0$ (o resultado é $1$), e o passo indutivo é que, caso o expoente seja diferente de 0, faz-se o produto da base com a função, até que se chegue no caso base.</p>
+<p>//fazer o de mdc e o de string</p>
+<h2 id="recursividade-em-lista">Recursividade em lista</h2>
+<p>Até agora, vimos a recursividade com casos que não envolvem listas, mas essa funcionalidade é extremamente útil para a manipulação de listas com o paradigma funcional.</p>
+<p>Para a recursividade em lista, é necessário <strong>desestruturar</strong>* a lista em dois elementos:
+* Head (ou cabeça): é o elemento a ser operado na operação recursiva atual. Geralmente, mas não para todos os casos, é o primeiro elemento da lista
+* Tail (ou cauda): é o resto da lista, em que as próximas operações recursivas ocorrerão, com um dos elementos (novamente, geralmente o primeiro) da tail sendo a head da próxima iteração recursiva.</p>
+<p>*A desestruturação de parâmetros é a separação de certos parâmetros de um objeto, uma lista ou algum outro tipo de dado:</p>
+<pre><code class="language-js">const lista = [1,2,3,5]
+const [x,...xs] = lista //desestruturação da lista, consistindo nesse caso de pegar o primeiro elemento e associá-lo à constante x, e o resto da lista associado à constante xs. Assim, x = 1 e xs = [2,3,5].
+
+console.log(x)
+console.log(xs)
+</code></pre>
+<p>Voltando à recursividade, abaixo temos uma função que retorna a soma de todos os elementos da lista:</p>
+<pre><code class="language-js">const somaLista = ([x,...xs]) =&gt; {
+    if (typeof x == 'undefined') return 0
+    else return x + somaLista(xs)
+}
+
+console.log(somaLista([3,4,12,15])) //retorna 34
+</code></pre>
+<p>A depender da função, é possível ter duas cabeças em uma mesma operação recursiva, como no exemplo abaixo, que retorna o maior </p>
+<pre><code class="language-js">const maior = ([x,y,...xs]) =&gt; {
+    if (typeof y == 'undefined') return x
+    else if (x&gt;y) return maior([x,...xs])
+    else return maior([y,...xs]) 
+}
+console.log(`O maior número da lista é ${maior([3,4,12,15])}`) 
+//retorna &quot;O maior número da lista é 15&quot;
+</code></pre>
+<p>*OBS: Como é possível ver, utilizamos em praticamente todas as funções de recursividade em lista a condição <code>typeof x == 'undefined'</code>, pois, caso a lista esteja vazia, o tipo dela é indefinido, ou <code>'undefined'</code>. Não é possível realizar operações úteis com isso. Para facilitar o trabalho, é possível identificar se certo elemento da lista (a "cabeça") está vazio, pois se estiver, a lista está vazia (ou no caso acima, resta apenas um elemento, que é o que queremos). Assim, é possível definir uma função de uso geral:</p>
+<pre><code class="language-js">const undef = (x) =&gt; typeof x == 'undefined'
+</code></pre>
+<p>Essa função verifica se o tipo da constante selecionada é <code>undefined</code> e retorna um valor do tipo bool <code>true</code> ou <code>false</code> caso seja ou não seja.</p>
+<p>A partir da recursividade, é possível criar funções já existentes, a fim de entender como elas funcionariam no paradigma funcional. Abaixo, temos a função <code>map</code>, implementada em JS:</p>
+<pre><code class="language-js">const lista1 = [2,3,8,10]
+const lista2 = lista1.map((x) =&gt; x**2)
+
+console.log(lista2) // retorna [4,9,64,100]
+</code></pre>
+<p>Como explicado no documento de <ins>Listas e registros </ins> a função <code>map</code> retorna uma nova lista com os elementos modificados de acordo com a função definida na sua declaração. Podemos criar uma função <code>map</code> com recursividade, da seguinte forma:</p>
+<pre><code class="language-js">const meuMap = ([x,...xs], f) =&gt; {
+    if (typeof x == 'undefined') return []
+    else return [f(x), ...meuMap(xs,f)] 
+}
+</code></pre></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
