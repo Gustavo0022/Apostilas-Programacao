@@ -1,4 +1,5 @@
-#PI 
+
+# Funções e Escopos
 
 [<- Voltar](./Menu.md)
 ## Funções
@@ -107,3 +108,5 @@ int main(){
 ```
 
 No caso acima,
+
+#PI

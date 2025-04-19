@@ -1,4 +1,5 @@
-#PI 
+
+# Operadores relacionais e condicionais
 
 [<- Voltar](./Menu.md)
 ## Operadores relacionais
@@ -136,3 +137,5 @@ A palavra ```default``` representa o conjunto de ações que será executado cas
 OBS¹: Para executar apenas o primeiro ```case``` correspondente a um valor, é necessário utilizar a palavra reservada ```break```
 
 OBS²: O ```switch``` não aceita strings ou floats. Para testar condições com variáveis desses tipos, é necessário utilizar ```ìf``` e ```else```.
+
+#PI
