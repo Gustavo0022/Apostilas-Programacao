@@ -1,9 +1,9 @@
 # Recursividade
 #PF
 
-[<- Voltar](./Menu.md)
 
-<img src="/assets/galshir-babushka.gif" height="400">
+
+<img src="/docs/Programação Funcional/assets/galshir-babushka.gif" height="400">
 
 ## Conceito
 

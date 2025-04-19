@@ -1,4 +1,4 @@
-#PI 
+# Strings
 
 [<- Voltar](./Menu.md)
 
@@ -43,3 +43,5 @@ printf("\nNome: %s", nome);
 ```
 
 OBS: Para utilizar acentuação em C, é necessário incluir a biblioteca `<locale.h>` e chamar a função ```setlocale(LC_ALL,"Portuguese")```.
+
+#PI 
