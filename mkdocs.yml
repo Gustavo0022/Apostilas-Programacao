@@ -1,0 +1,12 @@
+site_name: Arquivos da UFS
+
+
+
+theme:
+  name: mkdocs
+  highlightjs: true
+  hljs_languages:
+    - yaml
+
+
+
