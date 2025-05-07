@@ -4,7 +4,7 @@
 
 Apesar de já usarmos funções desde quando começamos a programar, é possível também criarmos nossas próximas funções.
 
-É altamente recomendado criar funções para códigos que se repetem. Também é considerada uma boa pŕatica que funções realizem uma única tarefa, e seu nome reflita essa tarefa.
+É altamente recomendado criar funções para códigos que se repetem. Também é considerada uma boa prática que funções realizem uma única tarefa, e seu nome reflita essa tarefa.
 ### Definição e chamada de uma função
 
 Funções podem ser definidas com a seguinte sintaxe
