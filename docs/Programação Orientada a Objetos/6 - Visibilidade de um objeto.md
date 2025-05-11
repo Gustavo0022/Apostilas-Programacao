@@ -11,6 +11,26 @@ Então, por exemplo, uma fábrica de carros (a Mazda, por exemplo), quer criar c
 
 Já um atributo como o modelo do carro só pode ser mudado em caso de modelos especiais (subclasses) (um Mazda RX-7 e um RX-7 Turbo, por exemplo). Esse aí é um atributo protegido. 
 
+Tome como exemplo o código abaixo, extraído da aula anterior:
+
+```Java
+public class Carro {
+    private String fabricante;
+    protected String modelo;
+    public String cor;
+    private boolean eletrico;
+    public int potencia;
+    public float motor;
+    public int peso;
+    private boolean ligado;
+
+	//.
+	//.
+	//.
+```
+
+Note que agora cada um tem as palavras `public`, `private` ou `protected` antes do tipo. Essa é a sintaxe de declaração da visibilidade do objeto em Java.
+
 Agora, nenhuma classe pode alterar o nome da fabricante (Mazda). E esse é um atributo privado.
 
 O conceito de atributos protegidos e subclasses será melhor explorado em aulas seguintes.

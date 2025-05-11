@@ -21,3 +21,107 @@ Note que, para a alteração do valor com um método setter, o método em quest�
 Os métodos construtores são métodos que, no instanciamento de uma classe (criação de um objeto), realizam ações automáticas nesse objeto. Eles podem até mesmo receber parâmetros para definir atributos na criação do objeto.
 
 Um exemplo é na criação de um objeto carro. Podemos utilizar o método construtor para que, na criação de um novo objeto da classe `Carro` (`Carro c1 = new carro()`) ele receba informações como nome do fabricante, modelo, e peso. Nesse caso, o instanciamento ficaria `Carro c1 = new carro('Ford','Bronco','1965')`. Ele também pode definir que, no ato do instanciamento, o estado do carro é `desligado`.
+
+## Exemplo com os conceitos abordados 
+
+Observe o excerto de código abaixo
+
+```Java
+public class Carro {
+
+	//Atributos
+    private String fabricante;
+    protected String modelo;
+    public String cor;
+    private boolean eletrico;
+    public int potencia;
+    public float motor;
+    public int peso;
+    private boolean ligado;
+
+	//Método construtor
+    public Carro(String modelo, String cor, int peso) {
+        this.ligado = false;
+        this.modelo = modelo;
+        this.cor = cor;
+        this.peso = peso;
+    }
+
+	//Métodos getters e setters
+    public String getFabricante() {
+        return fabricante;
+    }
+
+    public void setFabricante(String fabricante) {
+        this.fabricante = fabricante;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public String getCor() {
+        return cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    public boolean isEletrico() {
+        return eletrico;
+    }
+
+    public void setEletrico(boolean eletrico) {
+        this.eletrico = eletrico;
+    }
+
+    public int getPotencia() {
+        return potencia;
+    }
+
+    public void setPotencia(int potencia) {
+        this.potencia = potencia;
+    }
+
+    public float getMotor() {
+        return motor;
+    }
+
+    public void setMotor(float motor) {
+        this.motor = motor;
+    }
+
+    public int getPeso() {
+        return peso;
+    }
+
+    public void setPeso(int peso) {
+        this.peso = peso;
+    }
+
+    public boolean isLigado() {
+        return ligado;
+    }
+
+    public void setLigado(boolean ligado) {
+        this.ligado = ligado;
+    }
+
+	//Métodos da classe
+    public void acelerar(){
+        if (this.ligado == false){
+            System.out.println("O carro está desligado!");
+        }
+        else{
+            System.out.println("Acelerando...");
+        }
+    }  
+}
+```
+
+No código acima, é possível observar os métodos *getters* e *setters*, definidos com `getAlgo` (ou `isAlgo` para tipo lógico ou booleano) e `setAlgo`. Também é possível ver o método construtor, definido logo após os atributos. Observe que, nesse caso, ele recebe alguns atributos ao criar a instância da classe ( o objeto da classe `Carro`), e define o estado de alguns atributos nesse mesmo momento (colocando o atributo `ligado` para `false`).

@@ -6,15 +6,15 @@ Agora que o JDK está instalado e o NetBeans configurado, podemos criar o nosso 
 
 Primeiramente, ao abrir o NetBeans, você se deparará com a seguinte tela
 
-<img src="/Java/assets/Netbeans.png" height=500> 
+<img src="./assets/Netbeans.png" height=500> 
 
 Basta clicar em "New Project... " ou "Novo Projeto...", escolher, na janela seguinte, "Java With Maven" e "Java Application", dar um nome ao seu projeto, e clicar em "Finish" ou "Finalizar".
 
-<img src="/java/assets/NetBeansProjeto.png">
+<img src="./assets/NetBeansProjeto.png">
 
 Após isso, uma tela similar a essa aparecerá:
 
-<img src="/java/assets/NetBeansInicio.png">
+<img src="./assets/NetBeansInicio.png">
 
 O projeto já está criado!
 

@@ -10,8 +10,11 @@ Formalmente, objetos são "Instâncias de uma classe".
 Classes "definem atributos e métodos comuns que serão compartilhados por um objeto."
 
 Classes são justamente formas de se identificar e gerar, de forma genérica, um objeto. Classes precisam ter, assim como objetos, características (atributos), comportamentos (métodos) e estados possíveis.
- 
+
+>[!Dica]
+>Classes funcionam de forma similar (mas não igual) a `structs` da linguagem C. A diferença é que, enquanto `structs` possuem apenas `atributos`, classes também incorporam os métodos e conceitos essenciais da Orientação a objetos, como os 3 pilares (Encapsulamento, Herança e polimorfismo), que serão abordados nos documentos seguintes.
 ## Atributos
+
 Atributos são características do objeto. Do que ele é feito, ou o uso apropriado, entre outras características.
 
 Voltando ao exemplo da cadeira, podemos definir uma classe Cadeira, com atributos *material*, *estofado*, *uso externo?*, *vazada*, *número de pés*. Perceba que nem todos os atributos aceitam dados de um mesmo tipo. *material* aceita uma palavra ou frase, como madeira ou plástico. *uso externo* é uma pergunta de sim ou não (booleano). *número de pés* aceita números inteiros.
