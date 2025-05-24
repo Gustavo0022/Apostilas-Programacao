@@ -16,13 +16,12 @@ Exemplo:  Ordenação de uma sequência com *n* números
 ### Por seleção (selection sort)
 
 ```c
-for(int i=0; i<tamanho-1; i++){
-	for(int j = i+1; j<tamanho; j++){
-		if(lista[i].valor<lista[j].valor){
-			aux = lista[i];
-			lista[i] = lista[j];
-			lista[j] = aux;
-		}
+void selection_sort(uint32_t* V, uint32_t n) {
+	for(uint32_t i = 0; i < n - 1; i++) {
+		uint32_t min = i;
+		for(uint32_t j = i + 1; j < n; j++)
+			if(V[j] < V[min]) min = j;
+		if(i != min) trocar(&V[i], &V[min]);
 	}
 }
 ```
@@ -35,9 +34,8 @@ Assim, por possuir 2 loops e comparar todos os números da lista entre si, a com
 ```c
 void insertion_sort(uint32_t* V, uint32_t n) {
 	for(uint32_t i = 1; i < n; i++)
-		for(uint32_t j = i; j > 0;j--)
-			if( V[j - 1] > V[j])
-				trocar(&V[j], &V[j - 1]);
+		for(uint32_t j = i; j > 0 && V[j - 1] > V[j];j--)
+			trocar(&V[j], &V[j - 1]);
 }
 ```
 
@@ -70,8 +68,8 @@ Dessa forma, a complexidade desse algoritmo é de $n³$
 Supondo o exemplo anterior com uma entrada $n = 1000$. Suponha também que $c1 = 200ns,c2=150ns,c3 =250ns, c4=100ns$. Assim, o tempo levado é de
 
 $$(200 + 150\times 1000 + 250 \times 1000² \times + 100 \times 1000³)ns \approx 100s  $$
-Quanto maior o tamanho da entrada, maior é o fator de *maior grau* da função, nesse caso, o $n³$. Assim, esse fator é o que determina a maior parte do tempo consumido.
-
+Quanto maior o tamanho da entrada, maior é o fator de *maior grau* da função, nesse caso, o $n³$. Assim, esse fator é o que determina a maior parte do tempo consumido. Nesse caso, é possível afirmar que
+$$exemplo(n) \le g(n), g(n) = c\times n^{3}$$
 ### Análise assintótica
 
 Os valores das constantes dependem da máquina, e se analisa a ordem de complexidade por meio de $n \rightarrow \infty$ 
@@ -94,7 +92,9 @@ void insertion_sort(uint32_t* V, uint32_t n) {
 }
 ```
 
-Tome como exemplo o mesmo algoritmo de inserção utilizado anteriormente. Assim, para o insertion sort: $$insertion_sort(n) = c_{uint32\_t} \times n +c_{uint32\_t} \times 3 $$
+Tome como exemplo o mesmo algoritmo de inserção utilizado anteriormente. Assim, para essa implementação do insertion sort: $$insertion_sort(n) = c_{uint32\_t} \times n +c_{uint32\_t} \times 3 $$
+>[!NOTE]
+>O $c_{uint32\_t} \times 3$ representa os 3 valores inteiros alocados pelo programa (`i`, `j` e o valor `n`)
 ### Como calcular a memória alocada?
 
  A expressão para o cálculo aqui também será em função de $n$, e as constantes dependem do tamanho dos dados. Quanto maior o tamanho de $n$, maior é o fator de *maior grau* da função.
@@ -120,6 +120,8 @@ Para calcular a complexidade de tempo e espaço para uma função de fatorial, p
 Sabemos que $1! = 1$ e $0! = 1$. Assim, para esses, $n = 0$. Ou seja, o tempo para realização deles é 0 (constante). Agora se pegarmos qualquer número maior que 1, sabemos que a função de fatorial se torna $n! = n \times (n-1)!$, assim, tornando a complexidade disso maior que 0 (n), pois seu crescimento é linear. Em outras palavras: 
 $$Fatorial(n) = \begin{cases} 1 & n=0 \\ n \times Fatorial(n-1) & n>0 \end{cases}  $$
 ## Notações matemáticas
+
+### Notação O
 
 A notação O (ou Big O) é a formalização da complexidade de algoritmos, medindo, justamente, a complexidade dos algoritmos quando a entrada (o valor de $n$) tende a $\infty$.
 
@@ -156,6 +158,6 @@ Suponha que existem $c$ e $n_0$ tal que $(0\le busca(n))\le cg(n) , \forall n\ge
 
 ### Caso médio ($\Theta$)
 
-Aqui, são feitas análises de todas (ou uma parte de todas) as possibilidades, e assim é tirada uma média de tempo ou espaço utilizados para executar o algoritmo. Os casos médios para o exemplo da busca sequencial são a busca para qualquer valor entre 1 e 999, dado um vetor de 1000 elementos, por exemplo.
+Aqui, são feitas análises de quaisquer possíveis valores de tempo entre o melhor e o pior caso. Os casos médios para o exemplo da busca sequencial são a busca para qualquer valor entre 1 e 999, dado um vetor de 1000 elementos, por exemplo.
 
 Suponha que existem $c$ e $n_0$ tal que $(0\le c_1g(n) \le busca(n)\le c_2g(n)), \forall n\ge n_0$   . Logo, $$\Omega(c_{MC}) \le busca(n) \le O(n) $$
