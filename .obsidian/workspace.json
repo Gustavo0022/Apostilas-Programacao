@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/MTPC/01- Introdução.md",
+                "file": "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01- Introdução"
+              "title": "03 - Circuitos Digitais-lógicos"
             }
           }
         ],
@@ -196,13 +196,14 @@
   },
   "active": "e2d8ea9722bc59d8",
   "lastOpenFiles": [
+    "docs/Fundamentos de Sistemas Digitais/04 - Transmissão paralela e serial.md",
+    "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
     "docs/Estruturas de Dados/03- Recorrência.md",
     "docs/MTPC/01- Introdução.md",
     "docs/Estruturas de Dados/Sem título.md",
     "docs/MTPC",
     "docs/Estruturas de Dados/02 - Complexidade.md",
     "docs/Programação Funcional/03 - Recursividade.md",
-    "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
     "docs/Fundamentos de Sistemas Digitais/02 - Sistemas de numeração e circuitos digitais lógicos.md",
     "docs/Programação Orientada a Objetos/04 - Encapsulamento.md",
     "docs/Fundamentos de Sistemas Digitais/01 - Conceitos de sistemas digitais.md",
@@ -237,7 +238,6 @@
     "docs/Programação Orientada a Objetos - Revisão/9 - Encapsulamento.md",
     "docs/Programação Orientada a Objetos - Revisão/4 - O que é um objeto.md",
     "docs/Programação Orientada a Objetos - Revisão/12 - Herança (parte 2).md",
-    "docs/Programação Orientada a Objetos - Revisão/11 - Herança.md",
     "docs/Programação Orientada a Objetos - Revisão/assets",
     "site/Programação Orientada a Objetos/Menu/index.html",
     "site/Programação Orientada a Objetos/Menu",
