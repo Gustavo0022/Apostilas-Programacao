@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Estruturas de Dados/03- Recorrência.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "03- Recorrência"
-            }
-          },
-          {
-            "id": "e2d8ea9722bc59d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
                 "mode": "source",
                 "source": false
@@ -35,8 +21,7 @@
               "title": "05 - Aula 27-05"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de ficheiros"
+              "title": "Files"
             }
           },
           {
@@ -185,60 +170,60 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir Quick Switcher": false,
-      "graph:Abrir Visualização de diagrama de grafo": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Abrir nota de hoje": false,
-      "templates:Inserir templates": false,
-      "command-palette:Abrir paleta de comando": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e2d8ea9722bc59d8",
+  "active": "5718fc2cab21b64a",
   "lastOpenFiles": [
-    "docs/Fundamentos de Sistemas Digitais/05 - Circuitos combinacionais e sequenciais.md",
-    "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
-    "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
-    "docs/Estruturas de Dados/03- Recorrência.md",
-    "docs/MTPC/01- Introdução.md",
-    "docs/Estruturas de Dados/Sem título.md",
-    "docs/MTPC",
-    "docs/Estruturas de Dados/02 - Complexidade.md",
-    "docs/Programação Funcional/03 - Recursividade.md",
-    "docs/Fundamentos de Sistemas Digitais/02 - Sistemas de numeração e circuitos digitais lógicos.md",
-    "docs/Programação Orientada a Objetos/04 - Encapsulamento.md",
-    "docs/Fundamentos de Sistemas Digitais/01 - Conceitos de sistemas digitais.md",
-    "Pasted image 20250515102037.png",
-    "Pasted image 20250520165505.png",
-    "Pasted image 20250522153723.png",
-    "docs/Fundamentos de Sistemas Digitais/assets/DiagSensorTemp.png",
-    "docs/Fundamentos de Sistemas Digitais/assets/Imagem colada.png",
-    "docs/Fundamentos de Sistemas Digitais/assets/DiagTempo.png",
-    "docs/Fundamentos de Sistemas Digitais/assets",
-    "docs/Estruturas de Dados/assets/PiorCasoGrafico.png",
-    "docs/Estruturas de Dados/assets/Imagem colada.png",
-    "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentação.md",
-    "docs/Estruturas de Dados/assets/MelhorCaso.png",
-    "docs/Estruturas de Dados/assets/SegmentosDaMemoria.png",
-    "docs/Estruturas de Dados/00 - Ementa.md",
-    "docs/Programação Orientada a Objetos/06-.md",
-    "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentaão.md",
+    "docs/Programação Orientada a Objetos/10 - Relacionamento entre Classes.md",
     "docs/Sem título.md",
-    "docs/Programação Orientada a Objetos/05 - Relação cliente-Servidor.md",
-    "docs/Programação Orientada a Objetos/02 - Classes e Objetos.md",
-    "docs/Programação Orientada a Objetos/03 - Abstração.md",
-    "docs/Programação Imperativa/11 - Alocamento de memória.md",
     "docs/Prática em Sistemas Digitais/00 - Introdução.md",
     "docs/Prática em Sistemas Digitais",
-    "docs/Programação Imperativa/08 - Ponteiros.md",
-    "docs/Estruturas de Dados/assets",
+    "docs/Programação Orientada a Objetos/06-.md",
+    "docs/Programação Orientada a Objetos/05 - Relação cliente-Servidor.md",
+    "docs/Programação Orientada a Objetos/04 - Encapsulamento.md",
+    "docs/Programação Orientada a Objetos/03 - Abstração.md",
+    "docs/Programação Orientada a Objetos/02 - Classes e Objetos.md",
     "docs/Programação Orientada a Objetos/01 - Introdução.md",
-    "docs/Estruturas de Dados/01 - Introdução.md",
+    "docs/MTPC/01- Introdução.md",
+    "docs/MTPC",
+    "docs/Fundamentos de Sistemas Digitais/assets/DiagTempo.png",
+    "docs/Fundamentos de Sistemas Digitais/assets/DiagSensorTemp.png",
+    "docs/Fundamentos de Sistemas Digitais/assets",
+    "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
+    "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
+    "docs/Fundamentos de Sistemas Digitais/02 - Sistemas de numeração e circuitos digitais lógicos.md",
+    "docs/Fundamentos de Sistemas Digitais/01 - Conceitos de sistemas digitais.md",
     "docs/Fundamentos de Sistemas Digitais",
-    "docs/Programação Orientada a Objetos",
-    "docs/Programação Orientada a Objetos - Revisão/9 - Encapsulamento.md",
-    "docs/Programação Orientada a Objetos - Revisão/4 - O que é um objeto.md",
-    "docs/Programação Orientada a Objetos - Revisão/assets",
+    "docs/Estruturas de Dados/assets/PiorCasoGrafico.png",
+    "docs/Estruturas de Dados/assets/SegmentosDaMemoria.png",
+    "docs/Estruturas de Dados/assets/MelhorCaso.png",
+    "docs/Estruturas de Dados/assets/ClassesComplexidade.png",
+    "docs/Estruturas de Dados/assets",
+    "docs/Estruturas de Dados/Sem título.md",
+    "docs/Estruturas de Dados/02 - Complexidade.md",
+    "docs/Estruturas de Dados/03- Recorrência.md",
+    "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentação.md",
+    "docs/Estruturas de Dados/00 - Ementa.md",
+    "docs/Estruturas de Dados",
+    "docs/Programação Orientada a Objetos/12 - Herança (parte 2).md",
+    "docs/Programação Orientada a Objetos/11 - Herança.md",
+    "docs/Programação Orientada a Objetos/6 - Visibilidade de um objeto.md",
+    "docs/Programação Orientada a Objetos/4 - O que é um objeto.md",
+    "docs/Programação Orientada a Objetos/5 - Criando classes e objetos em Java.md",
+    "docs/Programação Orientada a Objetos/7 - Métodos especiais.md",
+    "docs/Programação Orientada a Objetos/3 - Primeiro programa em Java 1.md",
+    "docs/Programação Orientada a Objetos/assets/NetBeansProjeto.png",
+    "docs/Programação Orientada a Objetos/assets/NetBeansNomeClasse.png",
+    "docs/Programação Orientada a Objetos/assets/NetBeansInicio.png",
+    "docs/Programação Imperativa/assets/wdfMobile_Blue_img5.webp",
+    "docs/Programação Orientada a Objetos/assets",
     "site/Programação Orientada a Objetos/Menu/index.html",
     "site/Programação Orientada a Objetos/Menu",
     "site/Programação Orientada a Objetos"
