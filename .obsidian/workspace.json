@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
+                "file": "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 - Circuitos Digitais-lógicos"
+              "title": "05 - Aula 27-05"
             }
           }
         ],
@@ -196,7 +196,8 @@
   },
   "active": "e2d8ea9722bc59d8",
   "lastOpenFiles": [
-    "docs/Fundamentos de Sistemas Digitais/04 - Transmissão paralela e serial.md",
+    "docs/Fundamentos de Sistemas Digitais/05 - Circuitos combinacionais e sequenciais.md",
+    "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
     "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
     "docs/Estruturas de Dados/03- Recorrência.md",
     "docs/MTPC/01- Introdução.md",
@@ -237,7 +238,6 @@
     "docs/Programação Orientada a Objetos",
     "docs/Programação Orientada a Objetos - Revisão/9 - Encapsulamento.md",
     "docs/Programação Orientada a Objetos - Revisão/4 - O que é um objeto.md",
-    "docs/Programação Orientada a Objetos - Revisão/12 - Herança (parte 2).md",
     "docs/Programação Orientada a Objetos - Revisão/assets",
     "site/Programação Orientada a Objetos/Menu/index.html",
     "site/Programação Orientada a Objetos/Menu",

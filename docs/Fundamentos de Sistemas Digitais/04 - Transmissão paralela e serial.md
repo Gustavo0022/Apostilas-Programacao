@@ -1,1 +1,0 @@
-# Transmissão Paralela e serial
