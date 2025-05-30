@@ -1,2 +1,0 @@
-# Circuitos Digitais-Lógicos
-

@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Análise de complexidade - Arquivos da UFS</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/yaml.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Arquivos da UFS</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">ArquivosUFS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../Sem%20t%C3%ADtulo/" class="nav-link">Sem título</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Estruturas de Dados</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../00%20-%20Ementa/" class="dropdown-item">Bruno.</a>
+</li>
+                                    
+<li>
+    <a href="../01%20-%20Revis%C3%A3o%20de%20ponteiros%20e%20apresenta%C3%A7%C3%A3o/" class="dropdown-item">Revisão e introdução</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">Análise de complexidade</a>
+</li>
+                                    
+<li>
+    <a href="../03-%20Recorr%C3%AAncia/" class="dropdown-item">Recorrência</a>
+</li>
+                                    
+<li>
+    <a href="../04%20-%20Estrutura%20de%20lista/" class="dropdown-item">Estrutura de lista</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Fundamentos de Sistemas Digitais</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Fundamentos%20de%20Sistemas%20Digitais/01%20-%20Conceitos%20de%20sistemas%20digitais/" class="dropdown-item">Conceitos de sistemas digitais</a>
+</li>
+                                    
+<li>
+    <a href="../../Fundamentos%20de%20Sistemas%20Digitais/02%20-%20Sistemas%20de%20numera%C3%A7%C3%A3o%20e%20circuitos%20digitais%20l%C3%B3gicos/" class="dropdown-item">Sistemas de numeração</a>
+</li>
+                                    
+<li>
+    <a href="../../Fundamentos%20de%20Sistemas%20Digitais/03%20-%20Circuitos%20Digitais-l%C3%B3gicos/" class="dropdown-item">Circuitos Digitais-Lógicos</a>
+</li>
+                                    
+<li>
+    <a href="../../Fundamentos%20de%20Sistemas%20Digitais/05%20-%20Aula%2027-05/" class="dropdown-item">Aula 27/05</a>
+</li>
+                                    
+<li>
+    <a href="../../Fundamentos%20de%20Sistemas%20Digitais/06%20-%20Aula%2029-05/" class="dropdown-item">Aula 29/05</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">MTPC</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../MTPC/01-%20Introdu%C3%A7%C3%A3o/" class="dropdown-item">Introdução</a>
+</li>
+                                    
+<li>
+    <a href="../../MTPC/02%20-%20especifica%C3%A7%C3%B5es%20do%20TCC/" class="dropdown-item">Especificação do TCC</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Programação Funcional</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Funcional/01%20-%20Conceitos%20B%C3%A1sicos/" class="dropdown-item">Conceitos Básicos</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Funcional/02%20-%20Listas%20e%20Registros/" class="dropdown-item">Listas e Registros</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Funcional/03%20-%20Recursividade/" class="dropdown-item">Recursividade</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Funcional/Menu/" class="dropdown-item">PF</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Programação Imperativa</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/01%20-%20Conceitos%20iniciais/" class="dropdown-item">Conceitos iniciais</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/02%20-%20Operadores%20relacionais%20e%20condicionais/" class="dropdown-item">Operadores relacionais e condicionais</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/03%20-%20Strings/" class="dropdown-item">Strings</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/04%20-%20Estruturas%20de%20Repeti%C3%A7%C3%A3o/" class="dropdown-item">Estrutura de Repetição</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/05%20-%20Vetores%28Arrays%29/" class="dropdown-item">Vetores(Arrays)</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/06%20-%20Matrizes%20nDimensionais/" class="dropdown-item">Matrizes com mais de uma dimensão</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/07%20-%20Estruturas%20Heterog%C3%AAneas%20de%20Dados%20%28Structs%29/" class="dropdown-item">Estruturas Heterogêneas de Dados (Structs)</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/08%20-%20Ponteiros/" class="dropdown-item">Ponteiros</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/09%20-%20Fun%C3%A7%C3%B5es%20e%20Escopos/" class="dropdown-item">Funções e Escopos</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/10%20-%20Recursividade/" class="dropdown-item">Recursividade</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/11%20-%20Alocamento%20de%20mem%C3%B3ria/" class="dropdown-item">Alocamento de memória</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/12%20-%20Entrada%20e%20Sa%C3%ADda%20de%20Arquivos/" class="dropdown-item">Entrada e Saída de Arquivos</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/13%20-%20Ap%C3%AAndice%20-%20Algoritmos%20de%20ordena%C3%A7%C3%A3o/" class="dropdown-item">Apêndice - Algoritmos de ordenação</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Imperativa/Menu/" class="dropdown-item">Menu</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Programação Orientada a Objetos</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos/01%20-%20Introdu%C3%A7%C3%A3o/" class="dropdown-item">Aula 1 - Conceitos Básicos</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos/02%20-%20Classes%20e%20Objetos/" class="dropdown-item">Classes e objetos</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos/03%20-%20Abstra%C3%A7%C3%A3o/" class="dropdown-item">Abstração</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos/04%20-%20Encapsulamento/" class="dropdown-item">Encapsulamento</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos/05%20-%20Rela%C3%A7%C3%A3o%20cliente-Servidor/" class="dropdown-item">05   Relação cliente Servidor</a>
+</li>
+                                    
+<li>
+    <a href="../../Programa%C3%A7%C3%A3o%20Orientada%20a%20Objetos/06-/" class="dropdown-item">06 </a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Prática em Sistemas Digitais</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Pr%C3%A1tica%20em%20Sistemas%20Digitais/00%20-%20Introdu%C3%A7%C3%A3o/" class="dropdown-item">Introdução</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../01%20-%20Revis%C3%A3o%20de%20ponteiros%20e%20apresenta%C3%A7%C3%A3o/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../03-%20Recorr%C3%AAncia/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#analise-de-complexidade" class="nav-link">Análise de complexidade</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#o-que-e-eficiencia" class="nav-link">O que é eficiência</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#complexidade-de-tempo" class="nav-link">Complexidade de tempo</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#complexidade-de-espaco" class="nav-link">Complexidade de espaço</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ordem-de-crescimento" class="nav-link">Ordem de Crescimento</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#exemplo-para-calculo-de-complexidade" class="nav-link">Exemplo para cálculo de complexidade</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#notacoes-matematicas" class="nav-link">Notações matemáticas</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="analise-de-complexidade">Análise de complexidade</h1>
+<h2 id="o-que-e-eficiencia">O que é eficiência</h2>
+<p>É a otimização dos recursos e do tempo para realizar algo. Assim, as coisas com maior eficiência demandam menos tempo e recursos para se obter um resultado significativo.</p>
+<p>Historicamente, computadores eram ineficientes, chegando a tomar o espaço de um prédio (ENIAC) e consumirem energia também equivalente a isso. Devido a isso, era necessário otimizar os algoritmos para que o mínimo de energia e de tempo fossem consumidos. Outro fator que influenciava era que, devido à complexidade, não haviam muitos computadores, então o uso de computadores como o ENIAC, o BINAC, o UNIVAC e os computadores da série IBM System/360 era compatilhado entre diferentes instituições e pessoas.</p>
+<p>Hoje, a eficiência é importante devido às restrições de custo (para fabricar um produto suficientemente barato) e para o baixo consumo de potência. Com isso, é possível miniaturizar computadores e sistemas digitais e eletrônicos ao ponto de termos notebooks, celulares, wearables (smartwach, fone de ouvido, etc) e microcontroladores.</p>
+<h2 id="complexidade-de-tempo">Complexidade de tempo</h2>
+<p>A complexidade de tempo descreve o tempo necessário para que um computador execute um algoritmo dado uma entrada de determinado tamanho. A unidade de medida aqui é o <strong>número de operações realizadas</strong>.</p>
+<p>Exemplo:  Ordenação de uma sequência com <em>n</em> números</p>
+<h3 id="por-selecao-selection-sort">Por seleção (selection sort)</h3>
+<pre><code class="language-c">void selection_sort(uint32_t* V, uint32_t n) {
+    for(uint32_t i = 0; i &lt; n - 1; i++) {
+        uint32_t min = i;
+        for(uint32_t j = i + 1; j &lt; n; j++)
+            if(V[j] &lt; V[min]) min = j;
+        if(i != min) trocar(&amp;V[i], &amp;V[min]);
+    }
+}
+</code></pre>
+<p>O número de passos aqui é 
+$$N_{passos}= (n-1) +(n-2)+ ...+ 2+1 = \frac{(n-1) [1+(n-1)]}{2} \approx n²$$
+Assim, por possuir 2 loops e comparar todos os números da lista entre si, a complexidade de tempo é dada por $n²$ sempre, sendo n o tamanho da entrada.</p>
+<h3 id="por-insercao-insertion-sort">Por inserção (insertion sort)</h3>
+<pre><code class="language-c">void insertion_sort(uint32_t* V, uint32_t n) {
+    for(uint32_t i = 1; i &lt; n; i++)
+        for(uint32_t j = i; j &gt; 0 &amp;&amp; V[j - 1] &gt; V[j];j--)
+            trocar(&amp;V[j], &amp;V[j - 1]);
+}
+</code></pre>
+<p>Aqui, a ordenação é feita pegando um valor do array, e definindo como o início da lista ordenada. Depois, ele seleciona o valor seguinte, e compara com o maior valor da lista ordenada. Se esse valor da lista ordenada for maior que o selecionado, compara-se com o seguinte, até que se encontre um valor menor que ele. Quando esse valor for encontrado, o selecionado é inserido na lista, e o próximo valor não ordenado é selecionado, de forma que o mesmo algoritmo é executado.</p>
+<p>O número de passos aqui varia, pois temos o melhor e o pior caso. O melhor caso seria <strong>o array ordenado</strong>, sem nenhuma operação de troca a ser feita. Tirando isso, sempre teríamos algo pra fazer. Dessa forma: $$n&lt; N_{passos} &lt;n²$$
+Assim, o melhor caso é $n$, e o pior é $n²$.</p>
+<h3 id="como-calcular-a-quantidade-de-passos">Como calcular a quantidade de passos?</h3>
+<p>A análise para determinar a quantidade de passos depende somente do tamanho da entrada n, afinal os outros trechos do código são constantes (não se alteram). Por exemplo:</p>
+<pre><code class="language-c">void exemplo(uint32_t n) {
+    c1();
+    for(uint32_t i = 0; i &lt; n; i++)
+        c2();
+        for(uint32_t j = 0; j &lt; n; j++)
+            c3();
+            for(uint32_t k = 0; k &lt; n; k++)
+                c4();
+}
+</code></pre>
+<p>Aqui, as subrotinas <code>c1</code>, <code>c2</code>, <code>c3</code> e <code>c4</code> não dependem de n para funcionar, mas o valor que é iterado nos loops é justamente o valor de n. Assim $$exemplo(n) = c1+n\times{c2+n\times[c3+(c4\times n)] } = c1+c2 \times n + c3 \times n² + c4 \times n³$$
+Dessa forma, a complexidade desse algoritmo é de $n³$</p>
+<h3 id="como-calcular-o-tempo-consumido">Como calcular o tempo consumido?</h3>
+<p>Supondo o exemplo anterior com uma entrada $n = 1000$. Suponha também que $c1 = 200ns,c2=150ns,c3 =250ns, c4=100ns$. Assim, o tempo levado é de</p>
+<p>$$(200 + 150\times 1000 + 250 \times 1000² \times + 100 \times 1000³)ns \approx 100s  $$
+Quanto maior o tamanho da entrada, maior é o fator de <em>maior grau</em> da função, nesse caso, o $n³$. Assim, esse fator é o que determina a maior parte do tempo consumido. Nesse caso, é possível afirmar que
+$$exemplo(n) \le g(n), g(n) = c\times n^{3}$$</p>
+<h3 id="analise-assintotica">Análise assintótica</h3>
+<p>Os valores das constantes dependem da máquina, e se analisa a ordem de complexidade por meio de $n \rightarrow \infty$ </p>
+<p>$$\lim_{n \rightarrow \infty}{\frac{exemplo(n)}{g(n)}} = \begin{cases} O &amp; exemplo(n)<g(n) \\k & exemplo(n)=g(n) \\\infty & exemplo(n)>g(n)\end{cases}$$
+Sendo g(n) um valor equivalente à complexidade no pior caso (no caso de $exemplo(n)$, $c \times n³$)</p>
+<h2 id="complexidade-de-espaco">Complexidade de espaço</h2>
+<p>A complexidade de espaço descreve o espaço utilizado fisicamente na memória do computador, dada uma entrada de determinado tamanho. A unidade utilizada aqui é justamente o <strong>tamanho da alocação de memória necessária.</strong></p>
+<p>Exemplo:  Ordenação de uma sequência com <em>n</em> números</p>
+<h3 id="por-insercao-insertion-sort_1">Por inserção (insertion sort)</h3>
+<pre><code class="language-c">void insertion_sort(uint32_t* V, uint32_t n) {
+    for(uint32_t i = 1; i &lt; n; i++)
+        for(uint32_t j = i; j &gt; 0;j--)
+            if( V[j - 1] &gt; V[j])
+                trocar(&amp;V[j], &amp;V[j - 1]);
+}
+</code></pre>
+<p>Tome como exemplo o mesmo algoritmo de inserção utilizado anteriormente. Assim, para essa implementação do insertion sort: $$insertion_sort(n) = c_{uint32_t} \times n +c_{uint32_t} \times 3 $$</p>
+<blockquote>
+<p>[!NOTE]
+O $c_{uint32_t} \times 3$ representa os 3 valores inteiros alocados pelo programa (<code>i</code>, <code>j</code> e o valor <code>n</code>)</p>
+</blockquote>
+<h3 id="como-calcular-a-memoria-alocada">Como calcular a memória alocada?</h3>
+<p>A expressão para o cálculo aqui também será em função de $n$, e as constantes dependem do tamanho dos dados. Quanto maior o tamanho de $n$, maior é o fator de <em>maior grau</em> da função.</p>
+<h3 id="analise-assintotica_1">Análise assintótica</h3>
+<p>Assim como na análise de tempo, os valores das constantes dependem da máquina, e se analisa a ordem de complexidade por meio de $n \rightarrow \infty$ </p>
+<p>$$\lim_{n \rightarrow \infty}{\frac{exemplo(n)}{g(n)}} = \begin{cases} O &amp; exemplo(n)<g(n) \\k & exemplo(n)=g(n) \\\infty & exemplo(n)>g(n)\end{cases}$$
+Sendo g(n) um valor equivalente à complexidade no pior caso</p>
+<h2 id="ordem-de-crescimento">Ordem de Crescimento</h2>
+<p>Classes de complexidade para entrada n:</p>
+<p><img src= './assets/ClassesComplexidade.png'></p>
+<h2 id="exemplo-para-calculo-de-complexidade">Exemplo para cálculo de complexidade</h2>
+<p>Para calcular a complexidade de tempo e espaço para uma função de fatorial, por exemplo, podemos descrever a implementação iterativa do fatorial, de forma que tudo fique justificado.</p>
+<p>Sabemos que $1! = 1$ e $0! = 1$. Assim, para esses, $n = 0$. Ou seja, o tempo para realização deles é 0 (constante). Agora se pegarmos qualquer número maior que 1, sabemos que a função de fatorial se torna $n! = n \times (n-1)!$, assim, tornando a complexidade disso maior que 0 (n), pois seu crescimento é linear. Em outras palavras: 
+$$Fatorial(n) = \begin{cases} 1 &amp; n=0 \ n \times Fatorial(n-1) &amp; n&gt;0 \end{cases}  $$</p>
+<h2 id="notacoes-matematicas">Notações matemáticas</h2>
+<h3 id="notacao-o">Notação O</h3>
+<p>A notação O (ou Big O) é a formalização da complexidade de algoritmos, medindo, justamente, a complexidade dos algoritmos quando a entrada (o valor de $n$) tende a $\infty$.</p>
+<p>Outras notações são a notação $\Omega$, para melhor caso, e a notação $\Theta$ para um caso médio. Para analisar esses casos, vamos utilizar o exemplo de busca sequencial, denotado abaixo:</p>
+<pre><code class="language-c">int32_t busca(int32_t elem, int32_t V[], uint32_t n) {
+    int32_t r = -1;
+    for(uint32_t i = 0; r == -1 &amp;&amp; i &lt; n; i++)
+        if(V[i] == elem)
+            r = i;
+    return r;
+}
+</code></pre>
+<p>Esse exemplo pode ser descrito pela equação $$busca(n) = c_A + c_B \times n$$</p>
+<h3 id="analise-do-melhor-caso-omega">Análise do melhor caso ($\Omega$)</h3>
+<p>A situação de melhor caso é a que possui o menor número de passos realizados. No caso da busca sequencial, o melhor caso é quando o primeiro elemento é o elemento desejado em um vetor sem repetições (O(1)).</p>
+<p>Suponha que existem $c$ e $n_0$ tal que $(0\le cg(n) \le busca(n)), \forall n\ge n_0$   . Logo, $$\Omega(busca(n)) = \Omega (g(n)) = \Omega(c_A + c_B) = c_{MC}$$ <img src='./assets/MelhorCaso.png' height = 500 > </p>
+<h3 id="analise-do-pior-caso-o">Análise do pior caso ($O$)</h3>
+<p>É justamente a análise que descreve a situação que requer o maior número de passos para ser executada. É também a mais utilizada para a análise de algoritmos. Estabelece um limitante superior. No exemplo da busca sequencial, o melhor caso é quando o elemento desejado está na última posição do array.</p>
+<p>Suponha que existem $c$ e $n_0$ tal que $(0\le busca(n))\le cg(n) , \forall n\ge n_0$   . Logo, $$O(busca(n)) = O(cg(n)) = O(c_A + c_B) = c_{PC} \times n$$
+<img src='./assets/PiorCasoGrafico.png' height = 500></p>
+<h4 id="propriedades-da-notacao-o">Propriedades da notação $O$</h4>
+<ul>
+<li>Termos constantes: $O(c) = O(1)$</li>
+<li>Multiplicação por constantes: $O(c\times f(n))= O(f(n))$ </li>
+<li>Adição: $O(f_1(n)) + (f_2(n)) = O(|f_1(n)| + |f_2(n)|)$</li>
+<li>Produto: $O(f_1(n)) \times (f_2(n)) = O(f_1(n) \times f_2(n))$</li>
+</ul>
+<h3 id="caso-medio-theta">Caso médio ($\Theta$)</h3>
+<p>Aqui, são feitas análises de quaisquer possíveis valores de tempo entre o melhor e o pior caso. Os casos médios para o exemplo da busca sequencial são a busca para qualquer valor entre 1 e 999, dado um vetor de 1000 elementos, por exemplo.</p>
+<p>Suponha que existem $c$ e $n_0$ tal que $(0\le c_1g(n) \le busca(n)\le c_2g(n)), \forall n\ge n_0$   . Logo, $$\Omega(c_{MC}) \le busca(n) \le O(n) $$</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
