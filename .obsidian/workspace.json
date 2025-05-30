@@ -1,0 +1,231 @@
+{
+  "main": {
+    "id": "c6f1d70fe0bd3f8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "77d4ad716f1d2437",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5718fc2cab21b64a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "05 - Aula 27-05"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "47626baf70cbbc91",
+    "type": "split",
+    "children": [
+      {
+        "id": "5b31f1782812dafa",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a410305e13b2158b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "e2cb54ce46a86205",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "fdf9ab35895ccb5c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2e59709f22677286",
+    "type": "split",
+    "children": [
+      {
+        "id": "37c8b872c4371e8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff743262091c37a1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks para 13 - Apêndice - Algoritmos de ordenação"
+            }
+          },
+          {
+            "id": "01f7819762560526",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links externos de 13 - Apêndice - Algoritmos de ordenação"
+            }
+          },
+          {
+            "id": "07b2a35c9fcf2211",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ee1cac3602d26ffc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/Programação Imperativa/13 - Apêndice - Algoritmos de ordenação.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Índice de 13 - Apêndice - Algoritmos de ordenação"
+            }
+          },
+          {
+            "id": "8297f09f2539abd3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "canvas:Create new canvas": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "5718fc2cab21b64a",
+  "lastOpenFiles": [
+    "docs/Programação Orientada a Objetos/10 - Relacionamento entre Classes.md",
+    "docs/Sem título.md",
+    "docs/Prática em Sistemas Digitais/00 - Introdução.md",
+    "docs/Prática em Sistemas Digitais",
+    "docs/Programação Orientada a Objetos/06-.md",
+    "docs/Programação Orientada a Objetos/05 - Relação cliente-Servidor.md",
+    "docs/Programação Orientada a Objetos/04 - Encapsulamento.md",
+    "docs/Programação Orientada a Objetos/03 - Abstração.md",
+    "docs/Programação Orientada a Objetos/02 - Classes e Objetos.md",
+    "docs/Programação Orientada a Objetos/01 - Introdução.md",
+    "docs/MTPC/01- Introdução.md",
+    "docs/MTPC",
+    "docs/Fundamentos de Sistemas Digitais/assets/DiagTempo.png",
+    "docs/Fundamentos de Sistemas Digitais/assets/DiagSensorTemp.png",
+    "docs/Fundamentos de Sistemas Digitais/assets",
+    "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
+    "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
+    "docs/Fundamentos de Sistemas Digitais/02 - Sistemas de numeração e circuitos digitais lógicos.md",
+    "docs/Fundamentos de Sistemas Digitais/01 - Conceitos de sistemas digitais.md",
+    "docs/Fundamentos de Sistemas Digitais",
+    "docs/Estruturas de Dados/assets/PiorCasoGrafico.png",
+    "docs/Estruturas de Dados/assets/SegmentosDaMemoria.png",
+    "docs/Estruturas de Dados/assets/MelhorCaso.png",
+    "docs/Estruturas de Dados/assets/ClassesComplexidade.png",
+    "docs/Estruturas de Dados/assets",
+    "docs/Estruturas de Dados/Sem título.md",
+    "docs/Estruturas de Dados/02 - Complexidade.md",
+    "docs/Estruturas de Dados/03- Recorrência.md",
+    "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentação.md",
+    "docs/Estruturas de Dados/00 - Ementa.md",
+    "docs/Estruturas de Dados",
+    "docs/Programação Orientada a Objetos/12 - Herança (parte 2).md",
+    "docs/Programação Orientada a Objetos/11 - Herança.md",
+    "docs/Programação Orientada a Objetos/6 - Visibilidade de um objeto.md",
+    "docs/Programação Orientada a Objetos/4 - O que é um objeto.md",
+    "docs/Programação Orientada a Objetos/5 - Criando classes e objetos em Java.md",
+    "docs/Programação Orientada a Objetos/7 - Métodos especiais.md",
+    "docs/Programação Orientada a Objetos/3 - Primeiro programa em Java 1.md",
+    "docs/Programação Orientada a Objetos/assets/NetBeansProjeto.png",
+    "docs/Programação Orientada a Objetos/assets/NetBeansNomeClasse.png",
+    "docs/Programação Orientada a Objetos/assets/NetBeansInicio.png",
+    "docs/Programação Imperativa/assets/wdfMobile_Blue_img5.webp",
+    "docs/Programação Orientada a Objetos/assets",
+    "site/Programação Orientada a Objetos/Menu/index.html",
+    "site/Programação Orientada a Objetos/Menu",
+    "site/Programação Orientada a Objetos"
+  ]
+}
