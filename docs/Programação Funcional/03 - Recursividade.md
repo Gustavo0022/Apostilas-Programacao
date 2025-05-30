@@ -1,8 +1,7 @@
 # Recursividade
 
 
-<img src="/docs/Programação Funcional/assets/galshir-babushka.gif" height="400">
-
+![Babushka](docs/Programação%20Funcional/assets/galshir-babushka.gif)
 ## Conceito
 
 Recursividade é o ato de resolver um problema por meio da repetição de uma mesma função, chamada de **passo indutivo**, invocada por ela mesma, até que se chegue ao chamado **caso base**

@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
+                "file": "docs/MTPC/02 - especificações do TCC.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05 - Aula 27-05"
+              "title": "02 - especificações do TCC"
+            }
+          },
+          {
+            "id": "b8531907c351f89f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Programação Funcional/03 - Recursividade.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "03 - Recursividade"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -44,7 +59,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de ficheiros"
             }
           },
           {
@@ -170,62 +185,61 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir Quick Switcher": false,
+      "graph:Abrir Visualização de diagrama de grafo": false,
+      "daily-notes:Abrir nota de hoje": false,
+      "templates:Inserir templates": false,
+      "command-palette:Abrir paleta de comando": false,
       "canvas:Create new canvas": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5718fc2cab21b64a",
+  "active": "b8531907c351f89f",
   "lastOpenFiles": [
+    "docs/MTPC/02 - especificações do TCC.md",
+    "site/search/search_index.json",
+    "site/Prática em Sistemas Digitais/00 - Introdução/index.html",
+    "site/Prática em Sistemas Digitais/00 - Introdução",
+    "site/Prática em Sistemas Digitais",
+    "site/Programação Orientada a Objetos/06-/index.html",
+    "site/Programação Orientada a Objetos/05 - Relação cliente-Servidor/index.html",
+    "site/Programação Orientada a Objetos/04 - Encapsulamento/index.html",
+    "site/Programação Orientada a Objetos/02 - Classes e Objetos/index.html",
+    "site/Programação Orientada a Objetos/03 - Abstração/index.html",
+    "site/Programação Orientada a Objetos/01 - Introdução/index.html",
+    "site/img/grid.png",
+    "site/Programação Imperativa/assets/wdfMobile_Blue_img5.webp",
+    "site/Programação Imperativa/assets/DDR2_ram_mounted.jpg",
+    "site/Programação Imperativa/assets/Charles_Babbage.jpg",
+    "site/Programação Imperativa/assets/AreasMemoria.png",
+    "site/Programação Funcional/assets/galshir-babushka.gif",
+    "site/Fundamentos de Sistemas Digitais/assets/RuidoSinal.png",
+    "site/Fundamentos de Sistemas Digitais/assets/DiagTempo.png",
+    "site/Fundamentos de Sistemas Digitais/assets/DiagSensorTemp.png",
+    "site/Fundamentos de Sistemas Digitais/assets/ConvDec-Bin.png",
+    "docs/MTPC/01- Introdução.md",
+    "docs/Fundamentos de Sistemas Digitais/06 - Aula 29-05.md",
+    "docs/Estruturas de Dados/04 - Estrutura de lista.md",
+    "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
     "docs/Programação Orientada a Objetos/10 - Relacionamento entre Classes.md",
     "docs/Sem título.md",
     "docs/Prática em Sistemas Digitais/00 - Introdução.md",
-    "docs/Prática em Sistemas Digitais",
     "docs/Programação Orientada a Objetos/06-.md",
     "docs/Programação Orientada a Objetos/05 - Relação cliente-Servidor.md",
     "docs/Programação Orientada a Objetos/04 - Encapsulamento.md",
     "docs/Programação Orientada a Objetos/03 - Abstração.md",
     "docs/Programação Orientada a Objetos/02 - Classes e Objetos.md",
     "docs/Programação Orientada a Objetos/01 - Introdução.md",
-    "docs/MTPC/01- Introdução.md",
-    "docs/MTPC",
-    "docs/Fundamentos de Sistemas Digitais/assets/DiagTempo.png",
-    "docs/Fundamentos de Sistemas Digitais/assets/DiagSensorTemp.png",
-    "docs/Fundamentos de Sistemas Digitais/assets",
-    "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
     "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
     "docs/Fundamentos de Sistemas Digitais/02 - Sistemas de numeração e circuitos digitais lógicos.md",
     "docs/Fundamentos de Sistemas Digitais/01 - Conceitos de sistemas digitais.md",
-    "docs/Fundamentos de Sistemas Digitais",
-    "docs/Estruturas de Dados/assets/PiorCasoGrafico.png",
-    "docs/Estruturas de Dados/assets/SegmentosDaMemoria.png",
-    "docs/Estruturas de Dados/assets/MelhorCaso.png",
-    "docs/Estruturas de Dados/assets/ClassesComplexidade.png",
-    "docs/Estruturas de Dados/assets",
-    "docs/Estruturas de Dados/Sem título.md",
     "docs/Estruturas de Dados/02 - Complexidade.md",
     "docs/Estruturas de Dados/03- Recorrência.md",
     "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentação.md",
     "docs/Estruturas de Dados/00 - Ementa.md",
-    "docs/Estruturas de Dados",
     "docs/Programação Orientada a Objetos/12 - Herança (parte 2).md",
     "docs/Programação Orientada a Objetos/11 - Herança.md",
     "docs/Programação Orientada a Objetos/6 - Visibilidade de um objeto.md",
-    "docs/Programação Orientada a Objetos/4 - O que é um objeto.md",
-    "docs/Programação Orientada a Objetos/5 - Criando classes e objetos em Java.md",
-    "docs/Programação Orientada a Objetos/7 - Métodos especiais.md",
-    "docs/Programação Orientada a Objetos/3 - Primeiro programa em Java 1.md",
-    "docs/Programação Orientada a Objetos/assets/NetBeansProjeto.png",
-    "docs/Programação Orientada a Objetos/assets/NetBeansNomeClasse.png",
-    "docs/Programação Orientada a Objetos/assets/NetBeansInicio.png",
-    "docs/Programação Imperativa/assets/wdfMobile_Blue_img5.webp",
-    "docs/Programação Orientada a Objetos/assets",
-    "site/Programação Orientada a Objetos/Menu/index.html",
-    "site/Programação Orientada a Objetos/Menu",
-    "site/Programação Orientada a Objetos"
+    "docs/Programação Orientada a Objetos/4 - O que é um objeto.md"
   ]
 }
