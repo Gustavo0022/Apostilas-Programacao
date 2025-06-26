@@ -27,16 +27,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Fundamentos de Sistemas Digitais/06 - Aula 29-05.md",
+                "file": "docs/Estruturas de Dados/02 - Complexidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 - Aula 29-05"
+              "title": "02 - Complexidade"
+            }
+          },
+          {
+            "id": "e2f1929f95d16c14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Estruturas de Dados/02 - Complexidade.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02 - Complexidade"
+            }
+          },
+          {
+            "id": "a276bc92c259a860",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Estruturas de Dados/10 - Busca Interpolada.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "10 - Busca Interpolada"
+            }
+          },
+          {
+            "id": "b4887ae78cc96356",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/Estruturas de Dados/02 - Complexidade.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02 - Complexidade"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,12 +236,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b8531907c351f89f",
+  "active": "e2f1929f95d16c14",
   "lastOpenFiles": [
+    "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentação.md",
+    "docs/Estruturas de Dados/09 - Busca Binária.md",
+    "docs/Estruturas de Dados/10 - Busca Interpolada.md",
+    "docs/Estruturas de Dados/02 - Complexidade.md",
+    "docs/MTPC/02 - especificações do TCC.md",
+    "docs/Estruturas de Dados/08- Hash.md",
+    "docs/Estruturas de Dados/07 - Busca sequencial.md",
+    "docs/Estruturas de Dados/assets/BuscaSequencial.png",
+    "docs/Estruturas de Dados/assets/Imagem colada.png",
+    "docs/Estruturas de Dados/03- Recorrência.md",
+    "docs/Estruturas de Dados/04 - Estrutura de lista.md",
     "docs/Estruturas de Dados/05 - Fila.md",
-    "docs/Estruturas de Dados/06 - Pilha.md",
+    "docs/MTPC/01- Introdução.md",
     "docs/Fundamentos de Sistemas Digitais/07 - Aula 03-06.md",
     "docs/Fundamentos de Sistemas Digitais/06 - Aula 29-05.md",
+    "docs/Estruturas de Dados/06 - Pilha.md",
     "docs/Programação Funcional/03 - Recursividade.md",
     "site/search/search_index.json",
     "site/Prática em Sistemas Digitais/00 - Introdução/index.html",
@@ -219,11 +273,6 @@
     "site/Programação Funcional/assets/galshir-babushka.gif",
     "site/Fundamentos de Sistemas Digitais/assets/RuidoSinal.png",
     "site/Fundamentos de Sistemas Digitais/assets/DiagTempo.png",
-    "site/Fundamentos de Sistemas Digitais/assets/DiagSensorTemp.png",
-    "site/Fundamentos de Sistemas Digitais/assets/ConvDec-Bin.png",
-    "docs/MTPC/02 - especificações do TCC.md",
-    "docs/MTPC/01- Introdução.md",
-    "docs/Estruturas de Dados/04 - Estrutura de lista.md",
     "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
     "docs/Programação Orientada a Objetos/10 - Relacionamento entre Classes.md",
     "docs/Sem título.md",
@@ -234,13 +283,6 @@
     "docs/Programação Orientada a Objetos/03 - Abstração.md",
     "docs/Programação Orientada a Objetos/02 - Classes e Objetos.md",
     "docs/Programação Orientada a Objetos/01 - Introdução.md",
-    "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md",
-    "docs/Fundamentos de Sistemas Digitais/02 - Sistemas de numeração e circuitos digitais lógicos.md",
-    "docs/Fundamentos de Sistemas Digitais/01 - Conceitos de sistemas digitais.md",
-    "docs/Estruturas de Dados/02 - Complexidade.md",
-    "docs/Estruturas de Dados/03- Recorrência.md",
-    "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentação.md",
-    "docs/Estruturas de Dados/00 - Ementa.md",
-    "docs/Programação Orientada a Objetos/12 - Herança (parte 2).md"
+    "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md"
   ]
 }
