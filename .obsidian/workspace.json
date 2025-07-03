@@ -41,26 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Estruturas de Dados/02 - Complexidade.md",
+                "file": "docs/Estruturas de Dados/11 - Árvore Binária.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - Complexidade"
-            }
-          },
-          {
-            "id": "a276bc92c259a860",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Estruturas de Dados/10 - Busca Interpolada.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "10 - Busca Interpolada"
+              "title": "11 - Árvore Binária"
             }
           },
           {
@@ -238,15 +224,25 @@
   },
   "active": "e2f1929f95d16c14",
   "lastOpenFiles": [
+    "docs/Estruturas de Dados/assets/vetorBintree.png",
+    "docs/Estruturas de Dados/assets/vetorBtree.png",
+    "docs/Estruturas de Dados/assets/Captura de tela de 2025-06-30 22-42-10.png",
+    "docs/Estruturas de Dados/assets/vetorArvore.png",
+    "docs/Estruturas de Dados/assets/Captura de tela de 2025-06-30 22-41-03.png",
+    "docs/Estruturas de Dados/assets/nosInternosExternos.png",
+    "docs/Estruturas de Dados/assets/Captura de tela de 2025-06-30 22-20-49.png",
+    "docs/Estruturas de Dados/assets/arvoreKaria.png",
+    "docs/Estruturas de Dados/assets/arvorekaria.png",
+    "docs/Estruturas de Dados/assets/Captura de tela de 2025-06-30 22-12-57.png",
+    "docs/Estruturas de Dados/assets/arvoreEnraizada.png",
+    "docs/Estruturas de Dados/02 - Complexidade.md",
+    "docs/Estruturas de Dados/11 - Árvore Binária.md",
     "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentação.md",
     "docs/Estruturas de Dados/09 - Busca Binária.md",
     "docs/Estruturas de Dados/10 - Busca Interpolada.md",
-    "docs/Estruturas de Dados/02 - Complexidade.md",
     "docs/MTPC/02 - especificações do TCC.md",
     "docs/Estruturas de Dados/08- Hash.md",
     "docs/Estruturas de Dados/07 - Busca sequencial.md",
-    "docs/Estruturas de Dados/assets/BuscaSequencial.png",
-    "docs/Estruturas de Dados/assets/Imagem colada.png",
     "docs/Estruturas de Dados/03- Recorrência.md",
     "docs/Estruturas de Dados/04 - Estrutura de lista.md",
     "docs/Estruturas de Dados/05 - Fila.md",
@@ -265,14 +261,6 @@
     "site/Programação Orientada a Objetos/03 - Abstração/index.html",
     "site/Programação Orientada a Objetos/02 - Classes e Objetos/index.html",
     "site/Programação Orientada a Objetos/01 - Introdução/index.html",
-    "site/img/grid.png",
-    "site/Programação Imperativa/assets/wdfMobile_Blue_img5.webp",
-    "site/Programação Imperativa/assets/DDR2_ram_mounted.jpg",
-    "site/Programação Imperativa/assets/Charles_Babbage.jpg",
-    "site/Programação Imperativa/assets/AreasMemoria.png",
-    "site/Programação Funcional/assets/galshir-babushka.gif",
-    "site/Fundamentos de Sistemas Digitais/assets/RuidoSinal.png",
-    "site/Fundamentos de Sistemas Digitais/assets/DiagTempo.png",
     "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
     "docs/Programação Orientada a Objetos/10 - Relacionamento entre Classes.md",
     "docs/Sem título.md",
@@ -281,8 +269,6 @@
     "docs/Programação Orientada a Objetos/05 - Relação cliente-Servidor.md",
     "docs/Programação Orientada a Objetos/04 - Encapsulamento.md",
     "docs/Programação Orientada a Objetos/03 - Abstração.md",
-    "docs/Programação Orientada a Objetos/02 - Classes e Objetos.md",
-    "docs/Programação Orientada a Objetos/01 - Introdução.md",
-    "docs/Fundamentos de Sistemas Digitais/03 - Circuitos Digitais-lógicos.md"
+    "docs/Programação Orientada a Objetos/02 - Classes e Objetos.md"
   ]
 }
