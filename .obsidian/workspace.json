@@ -27,26 +27,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Estruturas de Dados/14 - Árvore B.md",
+                "file": "docs/Estruturas de Dados/02 - Complexidade.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "14 - Árvore B"
+              "title": "02 - Complexidade"
             }
           },
           {
-            "id": "a5f0ff82755214d5",
+            "id": "e2f1929f95d16c14",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/MTPC/02 - especificações do TCC.md",
+                "file": "docs/MTPC/4-07.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 - especificações do TCC"
+              "title": "4-07"
+            }
+          },
+          {
+            "id": "56528dc63562d586",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/MTPC/4-07.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4-07"
             }
           },
           {
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,7 +101,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Explorador de ficheiros"
+              "title": "Files"
             }
           },
           {
@@ -213,39 +227,40 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Abrir Quick Switcher": false,
-      "graph:Abrir Visualização de diagrama de grafo": false,
-      "daily-notes:Abrir nota de hoje": false,
-      "templates:Inserir templates": false,
-      "command-palette:Abrir paleta de comando": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
       "canvas:Create new canvas": false,
-      "obsidian-git:Open Git source control": false,
-      "webpage-html-export:Export Vault to HTML": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a5f0ff82755214d5",
+  "active": "56528dc63562d586",
   "lastOpenFiles": [
+    "docs/MTPC/01-08.md",
+    "docs/MTPC/4-07.md",
+    "docs/Estruturas de Dados/11 - Árvore Binária.md",
+    "docs/Sem título 1.md",
+    "docs/Mudança de grade - EC.md",
+    "docs/Estruturas de Dados/assets/arvoreBinBusca.png",
+    "docs/Estruturas de Dados/assets/arvoreB3.png",
+    "docs/Estruturas de Dados/assets/RL-RotationAVL.png",
+    "docs/Estruturas de Dados/assets/R-RotationAVL.png",
+    "docs/Estruturas de Dados/assets/LR-RotationAVL.png",
+    "docs/Estruturas de Dados/assets/L-rotationAVL.png",
+    "docs/Estruturas de Dados/assets/ArvoreB5.png",
     "docs/Estruturas de Dados/15 - Árvore B+.md",
     "docs/Estruturas de Dados/14 - Árvore B.md",
+    "docs/Estruturas de Dados/13 - Árvore AVL.md",
+    "docs/Estruturas de Dados/12 - Árvore Binária de Busca.md",
+    "docs/Estruturas de Dados/assets/vetorBintree.png",
+    "docs/Estruturas de Dados/assets/vetorBtree.png",
+    "docs/Estruturas de Dados/assets/Captura de tela de 2025-06-30 22-42-10.png",
+    "docs/Estruturas de Dados/02 - Complexidade.md",
+    "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentação.md",
     "docs/Estruturas de Dados/09 - Busca Binária.md",
     "docs/Estruturas de Dados/10 - Busca Interpolada.md",
-    "docs/Estruturas de Dados/11 - Árvore Binária.md",
-    "docs/Estruturas de Dados/12 - Árvore Binária de Busca.md",
-    "docs/Estruturas de Dados/13 - Árvore AVL.md",
-    "docs/Estruturas de Dados/assets/ArvoreB5.png",
-    "docs/Estruturas de Dados/assets/Imagem colada.png",
-    "docs/Estruturas de Dados/assets/arvoreB3.png",
-    "docs/Estruturas de Dados/02 - Complexidade.md",
-    "docs/Estruturas de Dados/assets/RL-RotationAVL.png",
-    "docs/Estruturas de Dados/assets/LR-RotationAVL.png",
-    "docs/Estruturas de Dados/assets/R-RotationAVL.png",
-    "docs/Estruturas de Dados/assets/L-rotationAVL.tmp.png",
-    "docs/Estruturas de Dados/assets/L-rotationAVL.png",
-    "docs/Sem título.canvas",
-    "docs/MTPC/4-07.md",
-    "docs/Estruturas de Dados/assets/arvoreBinBusca.png",
-    "docs/Estruturas de Dados/assets/vetorBintree.png",
-    "docs/Estruturas de Dados/01 - Revisão de ponteiros e apresentação.md",
     "docs/MTPC/02 - especificações do TCC.md",
     "docs/Estruturas de Dados/08- Hash.md",
     "docs/Estruturas de Dados/07 - Busca sequencial.md",
@@ -268,9 +283,6 @@
     "site/Programação Orientada a Objetos/02 - Classes e Objetos/index.html",
     "site/Programação Orientada a Objetos/01 - Introdução/index.html",
     "docs/Fundamentos de Sistemas Digitais/05 - Aula 27-05.md",
-    "docs/Programação Orientada a Objetos/10 - Relacionamento entre Classes.md",
-    "docs/Sem título.md",
-    "docs/Prática em Sistemas Digitais/00 - Introdução.md",
-    "docs/Programação Orientada a Objetos/06-.md"
+    "docs/Programação Orientada a Objetos/10 - Relacionamento entre Classes.md"
   ]
 }
